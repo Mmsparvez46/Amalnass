@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalnass HR</title>
+    <link rel="icon" type="image/x-icon" href="images1/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+      /* Styles for Services */
+      .service1:hover {
+          background-color: lightsalmon;
+          font-size: larger;
+      }
+
+      .service2:hover {
+          background-color: lightgreen;
+          font-size: larger;
+      }
+
+      .service3:hover {
+          background-color: lightblue;
+          font-size: larger;
+      }
+
+      .service4:hover {
+          background-color: lightgoldenrodyellow;
+          font-size: larger;
+      }
+
+      .service5:hover {
+          background-color: lightpink;
+          font-size: larger;
+      }
+
+      .service6:hover {
+          background-color: lightcyan;
+          font-size: larger;
+      }
+
+      .service7:hover {
+          background-color: lightgray;
+          font-size: larger;
+      }
+
+      .service8:hover {
+          background-color: lightsteelblue;
+          font-size: larger;
+      }
+
+      /* Style for About Us */
+      .abouts:hover {
+        font-size: larger;
+      }
+
+      #contact:hover {
+        font-size: larger;
+      }
+    </style>
+</head>
+<body>
+    <!-- ========== Company Header Image ============ -->
+    <div class="container-fluid mt-3" id="Home">
+        <img src="images1/Amalnass Header.jpg" alt="Company Header" style="width: 100%; height: 150px;">
+    </div>
+      <span id="top"></span>
+    <br>
+
+    <!-- =========== Navigation Bar ================= -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images1/logo3 (1).jpg" alt="Logo" style="width:40px;" class="rounded-pill"> Amalnass Core Services
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item" style="font-weight: bolder;font-size: large;">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item" style="font-weight: bolder;font-size: large;">
+                <a class="nav-link" href="#Updates">Updates</a>
+              </li>
+              <li class="nav-item" style="font-weight: bolder;font-size: large;">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item" style="font-weight: bolder;font-size: large;">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item" style="font-weight: bolder;font-size: large;">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <br>
+
+    <!-- ================ Company Header Info ================= -->
+    <div class="container mt-3">
+         <h1 style="text-align: center; font-size: 50px; color: red;">Amalnass Core Services</h1>
+         <p style="text-align: center; font-size: 28px;">(ISO 9001 : 2000 Certified Overseas Recriutment Approved by MOIA, INDIA)</p>
+    </div>
+
+    <div class="container mt-2" style="text-align: center;">
+        <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal8">
+          Get Quote
+        </button>
+    </div>
+      
+    <!-- ================ Get Quote Button ====================== -->
+    <!-- The Modal -->
+    <div class="modal" id="myModal8">
+      <div class="modal-dialog">
+        <div class="modal-content">
+      
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Get Quote</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="container mt-3">
+              <form action="/action_page.php">
+                <div class="form-floating mb-3 mt-3">
+                  <input type="text" class="form-control" id="name" placeholder="Enter Your Name" name="name" required>
+                  <label for="name">Name</label>
+                </div>
+                <div class="form-floating mb-3 mt-3">
+                  <input type="tel" class="form-control" id="phone" placeholder="Enter Your Mobile Number" name="phone" required>
+                  <label for="phone">Mobile Number</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email" required>
+                  <label for="email">Email</label>
+                </div>
+                <div>
+                  <label for="myfile">Select a Resume file:</label>
+                  <input type="file" class="form-control"id="myfile" name="myfile" multiple required>
+                </div><br>
+                <div class="form-floating mb-3 mt-3">
+                  <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+                  <label for="comment">How Can We Help You?</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-- =================== Updates ==================== -->
+    <div class="container mt-3 mb-3" id="Updates">
+      <h2 style="text-align: center;color: darkred;"><u>Updates</u></h2>
+      <br>
+    <!-- Carousel -->
+    <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo1" data-bs-slide-to="3"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images1/job update1.jpg" alt="job update1" class="d-block" style="width: 100%; height: 500px;">
+            <div class="carousel-caption" style="color: red; font-weight: bolder;">
+              <h3>Job Location : Saudi Arabia</h3>
+              <h6>Job Posted on 1 Month Ago</h6>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images1/job update2.jpg" alt="job update2" class="d-block" style="width: 100%; height: 500px;">
+            <div class="carousel-caption" style="color: whitesmoke;font-weight: bolder;">
+              <h3>Job Location : Saudi Arabia</h3>
+              <h6>Job Posted on 2 Months Ago</h6>
+            </div> 
+          </div>
+
+          <div class="carousel-item">
+            <img src="images1/job update6.jpg" alt="job update6" class="d-block" style="width: 100%; height: 500px;">
+            <div class="carousel-caption" style="color: white;font-weight: bolder;">
+              <h3>Job Location : South Koria</h3>
+              <p>Job Posted on 2 Months Ago</p>
+            </div>  
+          </div>
+
+          <div class="carousel-item">
+            <img src="images1/job update9.jpg" alt="job update9" class="d-block" style="width: 100%; height: 500px;">
+            <div class="carousel-caption" style="color: white;font-weight: bolder;">
+              <h3>Job Location : Qatar</h3>
+              <p>Job Posted on 2 Months Ago</p>
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <br>
+    </div>
+
+    <!-- =================== Services ===================== -->
+    <div class="container mb-5" id="service">
+          <h2 style="text-align: center;color: darkred;"><u>Our Services</u></h2>
+          <br>
+          <div class="service1" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+              <img src="images1/service1.png" alt="service1" width="100px" height="100px" style="margin-top: 10px;">
+              <h3 style="color: blue;">Recriutment Agent & Job Assistance</h3>
+              <p>We are assisting a job in abroad for all categories including Skilled, Semi-skilled persons, Techicians, etc...</p>
+          </div>
+          <br>
+          <div class="service2" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+            <img src="images1/service2.png" alt="service2" width="100px" height="100px" style="margin-top: 10px;">
+            <h3 style="color: blue;">ECR & ECNR Clearance</h3>
+            <p>We provide Emigration clearance ECR/ECNR for skilled, semi-skilled and unskilled workers as well as certain professionals such as ‘Nurses’, notified from time to time, for employment abroad in 18 specified countries including Saudi Arabia. Those people who have ECR passport require to get this process done to travel across specified countries.</p>
+          </div>
+          <br>
+          <div class="service3" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+            <img src="images1/service3.png" alt="service3" width="100px" height="100px" style="margin-top: 10px;">
+            <h3 style="color: blue;">Document Attestation</h3>
+            <p>We offer a wide range of services such as HRD/Home Attestation, MEA Attestation, Apostille Attestation, Saudi Embassy Attestation, Qatar Embassy Attestation, UAE Embassy Attestation, Kuwait Embassy Attestation. We facilitates complete solutions for embassy and apostille attestation services, notarization services, chamber attestations and all types of certificate attestations for all embassies in India ensuring the secure processing of documents in precise time.</p>
+         </div>
+         <br>
+         <div class="service4" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+          <img src="images1/service4.png" alt="service4" width="100px" height="100px" style="margin-top: 10px;">
+          <h3 style="color: blue;">Visa Stamping & Processing</h3>
+          <p>we have more than sufficient experience and expertise for preparation of visa applications and submission to the concerned country's Embassy / High Commission or Consulate. We give all sorts of visa administrations, for example, work license visa administrations, visit visa administrations, life partner visa administrations, understudy visa administrations, makeshift private visa administrations, account visa, settlement visa administrations, working occasion creator visa, local laborer visa and other work visa alongside consultancy for visa offers.</p>
+         </div>
+         <br>
+         <div class="service5" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+          <img src="images1/service5.png" alt="service5" width="120px" height="120px" style="margin-top: 10px;">
+          <h3 style="color: blue;">Tour Packages</h3>
+          <p>We provide a Tour Packages Services for US, Europe and Asian Countries with affordable and reasonable prices</p>
+         </div>
+         <br>
+         <div class="service6" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+          <img src="images1/service6.png" alt="service6" width="130px" height="100px" style="margin-top: 10px;">
+          <h3 style="color: blue;">Air Ticket</h3>
+          <p>We offer booking of Air Ticket for domestic and international flight booking , at any time. we believe that each travel plan must be the best. From the most basic to the most important aspects of travel, we pay close attention to every detail.</p>
+        </div>
+        <br>
+        <div class="service7" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+          <img src="images1/service7.png" alt="service7" width="130px" height="100px" style="margin-top: 10px;">
+          <h3 style="color: blue;">Umrah & Haj Services</h3>
+          <p>Performing Umrah and Hajj is dream for the pilgrims and at Amalnass Core Services we are striving to serve this great purpose. We offer the best of the Umrah and Hajj services to the believers across the country.With professional attention to details in our services, we have built a good reputation in the market. The quality of our services has become a trademark of our services.</p>
+        </div>
+        <br>
+        <div class="service8" style="text-align: center; border: 2px solid black;border-radius: 10px;">
+          <img src="images1/service8.png" alt="service8" width="100px" height="100px" style="margin-top: 10px;">
+          <h3 style="color: blue;">IT Project Solutions</h3>
+          <p>Our IT Project Solutions take the stress out of selecting and deploying the latest technology in your organization. Technology and IT-related projects can be stressful when not working with the right technology partner. we handle IT project services guides your team and ours to success with your IT and technology projects.</p>
+        </div>
+    </div>
+    <br>
+
+    <!-- ========================= About Us ================================= -->
+    <div class="container-fluid" id="about">
+        <h2 style="text-align: center;color: darkred;"><u>About Us</u></h2>
+
+        <div class="container mt-3" style="text-align: justify; font-size: large; border: 2px inset black; border-radius: 50px; color: darkblue; background-color: gainsboro;">
+          <P class="abouts" style="padding: 20px;">Amalnass Core Services provides multiple services such as Recriutment Agent and Job Assistance for supplying all Categories includng Skilled, Semi-Skilled persons and Technicians, etc. we provide ECR & ECNR Clearance, Document Attestation, Visa-Stamping & Processing, Tour packages, Air Ticket, Umrah & Haj Services and IT Project Solutions. Our Head Office is Located at Puthur, Nagapattinam and we have branches at Chennai, Delhi, Behrain </p>
+        </div>
+    </div>
+    <br>
+
+    <!-- ==================== Contact Card ========================== -->
+    <div class="container mt-3 mb-3" id="Updates">
+      
+      <!-- Carousel -->
+        <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+          </div>
+        
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="images1/contact 1.jpg" alt="job update1" class="d-block" style="width: 100%; height: 400px;">
+          </div>
+
+          <div class="carousel-item">
+              <img src="images1/contact 2.jpg" alt="job update2" class="d-block" style="width: 100%; height: 400px;">
+          </div>
+        </div>
+        
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+      </div>
+    </div>
+    <br>
+
+    <!-- ================== Contact Us ============================= -->
+    <div class="container-fluid" style="background-color: blue; color: white;" id="contact">
+        <h2 style="text-align: center;"><u>Contact Us</u></h2>
+        <br>
+          <div class="d-flex" style="background-color: red;">
+            <div class="location" style="text-indent: 5px; margin: 15px 15px;">
+              <img src="images1/google-map.gif" alt="location" style="width: 100px; height: 100px;">
+            </div>
+
+            <div class="contact" style="font-size: large;font-family: Arial, Helvetica, sans-serif;">
+              <address style="margin-top: 10px;">
+                3/574, Old Velankanni Road,<br>
+                Puthur,<br> 
+                Nagapattinam District - 611 102,<br>
+              <address>
+                <p>Our Branches : Chennai, Delhi, Behrain</p>
+            </div>
+          </div><br>
+
+          <!-- ====================== Follow Us ======================================= -->
+          <div class="Follow Us" style="text-indent: 40px; background-color: yellowgreen">
+            <h3><u>Follow Us</u></h3><br>
+            <a href="https://www.linkedin.com/in/amal-nass-252285228" style="text-decoration: none;color: black;"><i style="font-size:40px;color: blue;" class="fa">&#xf08c;</i> Amal Nass</a><br><br>
+            <a href="mailto:hr@amalnass.com?cc=admin@amalnass.com" style="text-decoration: none;color: black;"><i style="font-size:40px;color: red;" class="fa">&#xf0e0;</i>hr@amalnass.com | admin@amalnass.com</a><br><br>
+            <a href="tel:+918838231204" style="text-decoration: none;color: black;"><i style="font-size:40px;color: darkblue" class="fa">&#xf095;</i>+918838231204 | +918807959576</a><br><br>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal8" style="margin-left: 50px;">
+              Get Quote
+            </button><br><br>
+          </div>
+        <br>
+      </div>
+
+      <!-- ======================= Footer ==================================== -->
+      <div class="container-fluid" style="background-color: blue;">
+        <div class="footer" style="text-align: end;">
+          <button type="button" class="btn btn-danger btn-lg"><a href="#top" style="text-decoration: none;color: white;">Back to Top</a></button>
+        </div><br>
+
+        <div style="text-align: center;color: white;">
+          <p>&copy;This Website is Designed by <a href="https://www.linkedin.com/in/mohamed-haja-parvez-s-73117b208" target="_blank" style="text-decoration: none;color: red;">Mohamed Haja Parvez</a></p>
+        </div><br>
+      </div>
+</body>
+</html> 
